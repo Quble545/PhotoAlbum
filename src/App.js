@@ -90,6 +90,15 @@ const App = () => {
           </Grid>
         </Container>
       </main>
+
+      <footer className={classes.footer}>
+        <Typography variant="h6" align="center">
+          Photo Album
+        </Typography>
+        <Typography variant="body1" align="center" color="textSecondary">
+          Hello, this is amazing Album
+        </Typography>
+      </footer>
     </>
   );
 };

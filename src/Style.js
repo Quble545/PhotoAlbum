@@ -24,6 +24,10 @@ const useStyle = makeStyles((theme) => ({
   cardContainer: {
     marginTop: 40,
   },
+
+  footer: {
+    padding: "10vh 10vh",
+  },
 }));
 
 export default useStyle;
